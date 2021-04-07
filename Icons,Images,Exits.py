@@ -4,12 +4,12 @@ from PIL import ImageTk, Image
 # Setting the stuff up
 root = Tk()
 root.title("Icons, Images, and Exits")
-root.iconbitmap('C:/Users/QuentynMay/Downloads/hnet.com-image.ico')
+root.iconbitmap('C:/ImageViewer/hnet.com-image.ico')
 
 # Defining the images
-myimg1 = ImageTk.PhotoImage(Image.open('C:/Users/QuentynMay/Downloads/dice.png'))
-myimg2 = ImageTk.PhotoImage(Image.open('C:/Users/QuentynMay/Downloads/image2.png'))
-myimg3 = ImageTk.PhotoImage(Image.open('C:/Users/QuentynMay/Downloads/image3.png'))
+myimg1 = ImageTk.PhotoImage(Image.open('C:/ImageViewer/dice.png'))
+myimg2 = ImageTk.PhotoImage(Image.open('C:/ImageViewer/image2.png'))
+myimg3 = ImageTk.PhotoImage(Image.open('C:/ImageViewer/image3.png'))
 
 # Making a list of the images
 imagelist = [myimg1, myimg2, myimg3]
