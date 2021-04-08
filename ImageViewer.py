@@ -70,7 +70,7 @@ def back(image_number):
     return
 
 
-# Making and placing the buttons
+# Making the buttons for the first time
 back_button = Button(root, text='<<', state=DISABLED)
 button_quit = Button(root, text="Exit", command=root.quit)
 foward_button = Button(root, text='>>', command=lambda: forward(2))
